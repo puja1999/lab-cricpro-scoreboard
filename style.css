@@ -1,16 +1,95 @@
-/* Type your code here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+display: flex;
+justify-content: flex-end;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+h1{
+font-size: 30px;
+font-weight: bold;
+color: black;
+text-shadow: 2px 2px 4px #000000;
+}
+
+p{
+color:grey;
+font-size: 15px;
+font-weight: bold;
+padding: 5px;
+
+}
+.content{
+width: 90%;
+margin: 0 auto;
+margin-top: -25px;
+}
 
 
-/* change the font family and spacing as per your project font */
+.table-heading{
+background-color:orangered;
+color: white;
+}
+
+a{
+text-decoration: none;
+color: #70b6d1;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+table{
+position: absolute;
+border-collapse: collapse;
+top: 20%;
+background-color: #ffffff;
+width: 700px;
+font-size: 15px;
+margin-top: 12px;
+}
+
+
+tr{
+border: 1px solid lightgrey;
+border-left: none;
+border-right: none;
+}
+
+tr td, tr th{
+text-align: left;
+padding: 8px;
+}
+
+.text{
+color: gray;
+}
+
+.right-col{
+text-align: right;
+padding-right: 20px;
+}
+
 .footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+position: relative;
+top: 410px;
+font-size: 13px;
+font-style: normal;
+padding-bottom: 10px;
+
 }
